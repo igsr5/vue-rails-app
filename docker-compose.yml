@@ -33,6 +33,7 @@ services:
     tty: true
     stdin_open: true
     command: npm install
+    command: npm uninstall vue-cli
     command: npm run serve
 volumes:
   bundle:
