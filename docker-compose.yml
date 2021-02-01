@@ -32,6 +32,7 @@ services:
       - '8080:8080'
     tty: true
     stdin_open: true
+    command: npm install
     command: npm run serve
 volumes:
   bundle:
