@@ -7,7 +7,15 @@ $ build
 $ rails db:create
 $ up
 ```
-- Vue.js
-localhost:8080
-- Rails
-localhost:3000
+- Vue.js  
+http://localhost:8080
+- Rails  
+http://localhost:3000
+## Rspec
+```
+rspec
+```
+### bundle install
+```
+bundle install
+```
