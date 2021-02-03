@@ -1,7 +1,7 @@
 # ==============================================================================
 # env
 # ==============================================================================
-project_name='raills/vue'
+project_name='english-word-book'
 alias docker-compose="docker-compose -p $project_name"
 alias build="docker-compose build"
 alias up="docker-compose up"
