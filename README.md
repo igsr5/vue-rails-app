@@ -1,7 +1,13 @@
 # Vue.js, Rails application
 ## 環境構築
+env.shにaliasを作成してあるので読み込んで使用する。
 ```
-$ docker-compose build
-$ docker run web rails db:create
-$ docker-compose up
+$ source env.sh
+$ build
+$ rails db:create
+$ up
 ```
+- Vue.js
+localhost:8080
+- Rails
+localhost:3000
